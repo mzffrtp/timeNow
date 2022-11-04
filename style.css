@@ -1,0 +1,81 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(180, 246, 224);
+    font-size: 50px;
+   
+    
+}
+.top {
+    display: flexbox;
+    text-align: center;
+    
+}
+
+.selectMenu {
+    font-size: 50px;
+    display: flex;
+    justify-content:center;
+}
+
+#country {
+    margin: 0 20px;
+    width: 250px;
+    outline: none;
+    font-size: 40px;
+    background-color: yellow;
+    border: 1px solid black;
+    color: blue;
+    cursor: pointer;
+    text-align: center;
+}
+
+#clearCountry, #selectCountry {
+    margin: 0 10px;
+    width: 120px;
+    outline: none;
+    font-size: 40px;
+    background-color: rgb(242, 23, 23);
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    cursor: grab;
+}
+
+#selectCountry {
+    background-color: greenyellow;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: black;
+    cursor: grab;
+}
+
+#clearCountry:active {
+    background-color: white;
+    color: red;
+}
+
+#selectCountry:active {
+    background-color: turquoise;
+}
+
+.clockContainer {
+    display: flex;
+    justify-content: center;
+  
+}
+
+#clockShape {
+    display: flex;
+    justify-content: center;
+}
+
+.clockContainerStyling{
+    margin: 30px 10px 0 10px;
+    text-transform: capitalize;
+    margin: 35px 10px;
+    color: red;
+}
+
+
+
+
